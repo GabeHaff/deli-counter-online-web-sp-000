@@ -18,4 +18,6 @@ def take_a_number(queue, customer)
   puts "Welcome, #{customer}. You are #{queue.length} in line."
 end 
 
-def now_serving 
+def now_serving(queue)
+  if queue.length== 0 
+    puts "There "
