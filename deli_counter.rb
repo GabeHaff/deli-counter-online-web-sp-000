@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else 
     current_queue= ""
-    
+    current_queue+=
     array.each_with_index do |customer, index| 
 end
 end 
