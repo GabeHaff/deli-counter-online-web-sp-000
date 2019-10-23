@@ -14,4 +14,5 @@ end
 end 
 
 def take_a_number(queue, customer)
+  queue << customer 
   
