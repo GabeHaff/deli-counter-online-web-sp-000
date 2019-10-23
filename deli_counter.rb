@@ -9,6 +9,6 @@ def line(queue)
   
   
   
-  katz_deli.each_with_index do |customer, index| 
+  queue.each_with_index do |customer, index| 
 end
 end 
