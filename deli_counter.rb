@@ -7,6 +7,6 @@ def line(array)
   else 
     current_queue= ""
     array.each_with_index do |customer, index| 
-      current_queue+= "#{customer"
+      current_queue+= "#{index}+1"
 end
 end 
