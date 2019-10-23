@@ -3,7 +3,7 @@ katz_deli=[]
 
 def line(queue) 
   if queue.length==0 
-    puts "the line is currently empty."
+    puts "The line is currently empty."
   
   
   
