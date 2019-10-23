@@ -9,7 +9,7 @@ def line(array)
     array.each_with_index do |customer, index| 
       current_queue <<" #{index + 1}. #{customer}"
     end 
-    puts current_queue
+    puts "The line is currently #{current_queue}."
 end
 end 
 
