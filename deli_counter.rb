@@ -12,3 +12,5 @@ def line(array)
     puts current_queue
 end
 end 
+
+def 
